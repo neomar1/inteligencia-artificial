@@ -99,8 +99,19 @@ function mostraAlternativa(){
     for(const alternativa of perguntaAtual.alternativa){
     const botaoAlternativas = document.createElement("button");
     botaoAlternativas.textContent = alternativa;
+    botaoAlternativas.addEventListener("click", ()=> respotaSelecionada (alternativa))
     caixaAlternativas.appendChild(botaoAlternativas);
     }
 }
-
-mopstraPergunta();
+ function respotaSelecionada(opcaoSelecionada){
+    const afirmacoes = opcaoSelecionada.afirmacoes;
+    historiafinal = afirmacoes;
+    atual++
+    mostraPergunta()
+ }
+mostraPergunta(){
+    caixaPerguntas.textContent = "Em 2049...";
+    textoResultado.textContent= historiafinal;
+    caixaAlternativas.textContent= "";
+}
+ mostraPergunta();
