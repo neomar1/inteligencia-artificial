@@ -87,10 +87,16 @@ const perguntas = [
 
 let atual =0;
 let perguntaAtual;
+let historiafinal = "";
 
 function mostraPergunta(){
+    if( atual >= perguntas.length);
+    mostraResultado();
+    return
+
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
+    caixaAlternativas.textContent ="";
     mostraAlternativa();
 
 }
@@ -109,9 +115,13 @@ function mostraAlternativa(){
     atual++
     mostraPergunta()
  }
-mostraPergunta(){
+
+
+
+ function mostraPergunta(){
     caixaPerguntas.textContent = "Em 2049...";
     textoResultado.textContent= historiafinal;
     caixaAlternativas.textContent= "";
+
 }
  mostraPergunta();
