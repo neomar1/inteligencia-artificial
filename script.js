@@ -10,7 +10,7 @@ const perguntas = [
     alternativas:[
         {
         texto:"brabo",
-        afirmacao:"correndo dele"
+        afirmacao:"O uso de tecnologias inovadoras, como drones, sensores, inteligência artificial e biotecnologia, está transformando a agricultura e a pecuária, promovendo uma revolução no campo."
         },
         {
        texto:"cansado",
@@ -22,13 +22,13 @@ const perguntas = [
 
 {
     
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma",
+        enunciado: "O uso de tecnologias como drones e sensores para monitoramento de culturas tem se popularizado. Você acredita que essas tecnologias podem aumentar a produtividade agrícola de forma sustentável?",
         alternativas:[{
-            texto:"Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-            afirmacao:"afirmação"
+            texto:"Sim, a tecnologia pode ajudar a monitorar melhor as safras e utilizar recursos de maneira mais eficiente.",
+            afirmacao:" Essas tecnologias têm o potencial de aumentar a produtividade, reduzir desperdícios e promover a sustentabilidade, oferecendo soluções inteligentes para os desafios enfrentados pelos produtores."
         },
         {        
-           texto:"Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+           texto:"Não, a tecnologia pode ser muito cara para pequenos produtores e não é uma solução para todos.",
            afirmacao:"afirmação"
         }        
         ]
@@ -37,14 +37,14 @@ const perguntas = [
 
     {
     
-        enunciado: "Após a elaboração do trabalho, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "A agropecuária é uma das principais responsáveis pela emissão de gases de efeito estufa e desmatamento. O que você acha que deveria ser feito para reduzir esses impactos?",
         alternativas:[
             {
-            texto:"Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-            afirmacao:"afrimação"
+            texto: "É necessário adotar práticas agrícolas mais sustentáveis, como o plantio direto e o uso de técnicas de agroecologia.",
+            afirmacao:"Apesar dos avanços, a integração de novas tecnologias na agropecuária não está isenta de desafios"
             },
             {
-            texto:"Me preocupo com as pessoas que perderão seus empregos para máquinas e defendo a importância de proteger os trabalhadores.",
+            texto: "Não é possível reduzir o impacto da agropecuária sem prejudicar a produção de alimentos. Devemos continuar com as práticas atuais.",
             afirmacao:"afirmação"
             }
         ]
@@ -52,14 +52,14 @@ const perguntas = [
     
     {
     
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado:"A pecuária é responsável por grande parte do desmatamento e das emissões de metano. O que você acha que deve ser feito para melhorar a sustentabilidade na pecuária?" ,
         alternativas:[
             {
-            texto:"Criar uma imagem utilizando uma plataforma de design como o Paint.",
-            afirmacao:"afirmação"
+            texto: "Investir em sistemas de produção intensiva e tecnologias para reduzir as emissões de metano.",
+            afirmacao:"O alto custo de implementação e a necessidade de capacitação dos produtores são barreiras que precisam ser superadas "
         },
         {
-            texto:"Criar uma imagem utilizando um gerador de imagem de IA.",
+            texto:"Apenas a redução do consumo de carne pode diminuir o impacto da pecuária no meio ambiente." ,
             afirmacao:"afirmação"
         }
         ]
@@ -67,14 +67,14 @@ const perguntas = [
 
     {
     
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda de uma IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz?",
+        enunciado: "O uso de agrotóxicos na agricultura tem gerado preocupações quanto à saúde humana e ao meio ambiente. Qual é a sua opinião sobre o uso de agrotóxicos?",
         alternativas:[
             {
-            texto:"Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-            afirmacao:"afirmação"
+            texto: "Os agrotóxicos são necessários para garantir a produtividade, mas devem ser usados com regulamentação mais rígida.",
+            afirmacao:"Contudo, a combinação de inovação com práticas agrícolas tradicionais pode ser a chave para uma agricultura mais eficiente e ambientalmente responsável. "
             },
         {
-            texto:"O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
+            texto: "Deveríamos buscar alternativas naturais e orgânicas, já que os agrotóxicos prejudicam a saúde e o meio ambiente.",
             afirmacao:"afirmação"
         }
         ]
