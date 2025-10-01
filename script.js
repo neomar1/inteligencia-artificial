@@ -6,15 +6,15 @@ const textoResultado=document.querySelector(".texto-resultado");
 
 const perguntas = [
 {
-    enunciado: "Em uma quinta-feira depois do almoço fomos buscar o boi, que o patrão tinha comprado.",
+    enunciado: "Qual é uma das principais vantagens ambientais do método de Plantio Direto (PD) em comparação com o preparo de solo convencional?",
     alternativas:[
         {
-        texto:"brabo",
+        texto:"Permite o uso de mais agrotóxicos.",
         afirmacao:"O uso de tecnologias inovadoras, como drones, sensores, inteligência artificial e biotecnologia, está transformando a agricultura e a pecuária, promovendo uma revolução no campo."
         },
         {
-       texto:"cansado",
-       afirmacao:"afirmação"
+       texto:"Reduz significativamente a erosão do solo e aumenta a retenção de água.",
+       afirmacao:"O futuro do agronegócio é moldado pela inteligência e eficiência."
         }
 
     ]
@@ -29,7 +29,7 @@ const perguntas = [
         },
         {        
            texto:"Não, a tecnologia pode ser muito cara para pequenos produtores e não é uma solução para todos.",
-           afirmacao:"afirmação"
+           afirmacao:"A Agricultura de Precisão (com drones, GPS e sensores) se consolidou como a ferramenta fundamental para a sustentabilidade."
         }        
         ]
     },
@@ -45,7 +45,7 @@ const perguntas = [
             },
             {
             texto: "Não é possível reduzir o impacto da agropecuária sem prejudicar a produção de alimentos. Devemos continuar com as práticas atuais.",
-            afirmacao:"afirmação"
+            afirmacao:"Práticas como o Plantio Direto e a diversificação de culturas (policultura) são essenciais. "
             }
         ]
     },
@@ -60,7 +60,7 @@ const perguntas = [
         },
         {
             texto:"Apenas a redução do consumo de carne pode diminuir o impacto da pecuária no meio ambiente." ,
-            afirmacao:"afirmação"
+            afirmacao:"A sustentabilidade é uma exigência legal e de mercado. "
         }
         ]
     },
@@ -75,7 +75,7 @@ const perguntas = [
             },
         {
             texto: "Deveríamos buscar alternativas naturais e orgânicas, já que os agrotóxicos prejudicam a saúde e o meio ambiente.",
-            afirmacao:"afirmação"
+            afirmacao:" A produção abundante e rentável de alimentos no futuro depende da inovação tecnológica aliada ao respeito rigoroso aos princípios ecológicos. A sustentabilidade é, portanto, o caminho mais inteligente e lucrativo para a agropecuária moderna."
         }
         ]
     },
@@ -106,7 +106,7 @@ function mostraPergunta(){
      }
 
      function respostaSelecionada(opcaoSelecionada){
-        const afirmacoes = opcaoSelecionada. afirmacoes;
+        const afirmacoes = opcaoSelecionada. afirmacao;
         historiaFinal += afirmacoes + "" ;
         atual++;
         mostraPergunta();
@@ -114,7 +114,7 @@ function mostraPergunta(){
      }
 
      function mostraResultado(){
-        caixaPerguntas.textContent = "Em 2049...";
+        caixaPerguntas.textContent = "Resumo...";
         textoResultado.textContent = historiaFinal;
         caixaAlternativas.textContent = "";
      }
